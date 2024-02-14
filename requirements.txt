@@ -1,9 +1,6 @@
 streamlit
-Pillow
-scikit-learn
 pandas
 numpy
 matplotlib
-PIL
+Pillow
 pydeck
-time
