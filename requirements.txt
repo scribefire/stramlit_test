@@ -1,0 +1,9 @@
+streamlit
+Pillow
+scikit-learn
+pandas
+numpy
+matplotlib
+PIL
+pydeck
+time
