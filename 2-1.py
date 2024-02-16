@@ -7,7 +7,7 @@ import pydeck as pdk
 import time
 
 # st.title('サンプルデータの表示')
-st.header('サンプルデータの表示')
+st.header('サンプルデータの表示テスト')
 # st.subheader('サブヘッダーの表示')
 st.text('サンプルデータ')
 
