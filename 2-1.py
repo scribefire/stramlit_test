@@ -7,13 +7,13 @@ import pydeck as pdk
 import time
 
 # st.title('サンプルデータの表示')
-st.header('サンプルデータの表示テスト')
-# st.subheader('サブヘッダーの表示')
+# st.header('サンプルデータの表示テスト')
+st.subheader('サンプルデータの表示テスト')
 st.text('サンプルデータ')
 
-df = pd.DataFrame({'first column': [1, 2, 3, 4], 'second column': [40, 30, 20, 10] })
+# df = pd.DataFrame({'first column': [1, 2, 3, 4], 'second column': [40, 30, 20, 10] })
 
-st.write(df)
+# st.write(df)
 # df
 # st.dataframe(df, width=200, height=200)
 # st.table(df)
@@ -27,6 +27,7 @@ st.write(df)
 # """
 
 df = pd.DataFrame(np.random.randn(20, 3), columns = ['a', 'b', 'c'])
+df
 st.line_chart(df)
 st.area_chart(df)
 st.bar_chart(df)
