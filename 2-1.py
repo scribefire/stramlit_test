@@ -6,10 +6,10 @@ from PIL import Image
 import pydeck as pdk
 import time
 
-st.title('サンプルデータの表示')
-# st.header('ヘッダーの表示')
+# st.title('サンプルデータの表示')
+# st.header('サンプルデータの表示')
 # st.subheader('サブヘッダーの表示')
-# st.text('サンプルデータ')
+st.text('サンプルデータ')
 
 df = pd.DataFrame({'first column': [1, 2, 3, 4], 'second column': [40, 30, 20, 10] })
 
