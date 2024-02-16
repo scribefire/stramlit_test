@@ -6,25 +6,25 @@ from PIL import Image
 import pydeck as pdk
 import time
 
-st.title('タイトル表示')
-st.header('ヘッダーの表示')
-st.subheader('サブヘッダーの表示')
-st.text('テキストの表示')
+st.title('サンプルデータの表示')
+# st.header('ヘッダーの表示')
+# st.subheader('サブヘッダーの表示')
+# st.text('サンプルデータ')
 
 df = pd.DataFrame({'first column': [1, 2, 3, 4], 'second column': [40, 30, 20, 10] })
 
 st.write(df)
-df
-st.dataframe(df, width=200, height=200)
-st.table(df)
+# df
+# st.dataframe(df, width=200, height=200)
+# st.table(df)
 
 
-"""
-'''Python
-import streamlit as st 
-print('Hello Streamlit')
-'''
-"""
+# """
+# '''Python
+# import streamlit as st 
+# print('Hello Streamlit')
+# '''
+# """
 
 df = pd.DataFrame(np.random.randn(20, 3), columns = ['a', 'b', 'c'])
 st.line_chart(df)
